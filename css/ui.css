@@ -1,0 +1,224 @@
+.word-container {
+  width: 100%;
+  height: 60px;
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  position: absolute;
+  top: calc(50vh - 30px);
+  left: 0;
+}
+
+#focus-arrows {
+  width: 0;
+  height: 100%;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  position: absolute;
+  top: 0;
+  left: calc(50vw - 80px);
+}
+
+#word {
+  font-size: 30px;
+  height: 40px;
+  left: calc(50vw - 123px);
+  top: 5px;
+  position: absolute;
+  font-family: 'Ubuntu Mono';
+}
+
+#red {
+  color: #e74c3c;
+}
+
+.mediaControls {
+  width: 100%;
+  height: 40px;
+
+  position: absolute;
+  /*top: calc(50vh + 60px);*/
+  top: calc(75vh);
+  left: 0;
+}
+
+.mediaControls img {
+  height: 30px;
+}
+
+#playbtn, #pausebtn {
+  position: absolute;
+  top: 0;
+  left: calc(50vw - 10px);
+  cursor: pointer;
+}
+
+#backwardbtn, #forwardbtn {
+  position: absolute;
+  top: 0;
+}
+
+#backwardbtn {
+  left: calc(50vw -  60px);
+}
+
+#forwardbtn {
+  right: calc(50vw - 60px);
+}
+
+#scrubslider {
+  width: calc(100vw - 50px);
+  height: 10px;
+  position: absolute;
+  left: 25px;
+  top: -30px;
+  border: 1px solid #eee;
+}
+
+#scrubslider .ui-slider-range {
+  background-color: #e74c3c;
+}
+
+#scrubslider .ui-slider-handle {
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #fff;
+  border: 4px solid #e74c3c;
+  top: -7.5px;
+}
+
+#timePassed, #timeTotal {
+  font-family: 'Lato';
+  font-size: 15px;
+  position: absolute;
+  top: 3px;
+
+}
+
+#timePassed {
+  left: 25px;
+}
+
+#timeTotal {
+  right: 25px;
+}
+
+
+.speedControls {
+  position: fixed;
+  left: calc(50vw - 100px);
+  top: calc(25vh - 20px);
+  width: 200px;
+  height: 60px;
+  
+}
+
+#speedslider {
+  width: calc(100% - 50px);
+  height: 2px;
+  border: none;
+  background-color: #eee;
+  position: absolute;
+  top: 45px;
+  left: 25px;
+}
+
+#speedslider .ui-slider-handle {
+  background-color: #e74c3c;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  top: -14px;
+}
+
+#speeddisplay {
+  font-family: 'montserrat';
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+.speedControls img {
+  width: 24px;
+  position: absolute;
+  top: 32px;
+}
+
+#fastIcon {
+  right: -15px;
+}
+
+#slowIcon {
+  left: -9px;
+  top: 35px;
+  width: 18px;
+}
+
+.loadContainer {
+  width: calc(100% - 50px);
+  height: 200px;
+  position: absolute;
+  top: calc(50vh - 100px);
+  left: 25px;
+}
+
+#loadBtn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: 'ubuntu mono';
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.loadContainer textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #eee;
+  resize: none;
+  padding-left: 25px;
+}
+
+.loadContainer img {
+  width: 15px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+#resetBtn {
+  position: absolute;
+  bottom: 130px;
+  left: calc(50vw - 75px);
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-family: 'ubuntu mono';
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+}
+
+.btn-hover:hover {
+  background-color: #b62616 !important;
+}
+
+/* copyright © 2018 Daniel Fearn */
